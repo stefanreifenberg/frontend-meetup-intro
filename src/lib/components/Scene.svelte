@@ -35,8 +35,7 @@ const spheres = $state(
     oncreate={(ref) => {
         ref.lookAt(0, 1, 0)
     }}
-    >
-    <!-- <OrbitControls/> -->
+    >    
 </T.PerspectiveCamera>
 
 <Environment url="adamsbridge.hdr" />

@@ -11,7 +11,7 @@
   </p>
   </div>
 
-  <div class="spacer-auto"></div> <!-- Flexible Spacer -->
+  <div class="spacer-auto"></div>
 
   <div class="main-title">
       <p class="big-text-left">04</p>
@@ -19,7 +19,7 @@
       <p class="big-text-right">2025</p>
   </div>
 
-  <div class="spacer-auto"></div> <!-- Flexible Spacer -->
+  <div class="spacer-auto"></div>
 
   <div class="footer">
       <p class="footer-text">
@@ -41,15 +41,15 @@
   }
 
   .container {
-      width: 100vw; /* Full width */
-      min-height: 100vh; /* Full height */
-      padding: 2rem; /* Responsive padding */
+      width: 100vw;
+      min-height: 100vh;
+      padding: 2rem;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between; /* Distributes content evenly */
+      justify-content: space-between;
       pointer-events: none;
-      overflow: hidden; /* Prevents scrolling issues */
+      overflow: hidden;
   }
 
   .header, .footer {
@@ -93,7 +93,7 @@
   }
 
   .big-text-left {
-      font-size: clamp(6rem, 20vw, 12rem); /* Responsive text scaling */
+      font-size: clamp(6rem, 20vw, 12rem);
       line-height: 1;
       color: black;
       margin: 0;
@@ -102,11 +102,10 @@
       width: 100%;
   }
   .big-text-right {
-      font-size: clamp(6rem, 20vw, 12rem); /* Responsive text scaling */
+      font-size: clamp(6rem, 20vw, 12rem);
       line-height: 1;
       color: black;
       margin: 0;
-      /* letter-spacing: -0.2em; */
       text-align: end;
       width: 100%;
   }
@@ -150,7 +149,7 @@
   }
 
   .spacer-auto {
-      flex-grow: 1; /* Pushes content dynamically */
+      flex-grow: 1;
   }
 
   .spacer-small {

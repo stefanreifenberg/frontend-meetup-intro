@@ -30,8 +30,7 @@
     </div>
 </div>
 
-<style>   
-    /* Fullscreen container */
+<style>
     .container {
         position: relative;
         width: 100vw;
@@ -39,37 +38,33 @@
         overflow: hidden;
     }
 
-    /* Underlay should be behind the canvas */
     .underlay-wrapper {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: -1; /* Push underlay behind the canvas */
+        z-index: -1;
     }
 
-    /* Canvas stays in the middle */
     .canvas-wrapper {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 0; /* Canvas is above underlay but below overlay */
+        z-index: 0;
     }
-
-    /* Overlay should be above the canvas */
     .overlay-wrapper {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 10; /* Overlay is the topmost layer */
-        pointer-events: none; /* Ensure clicks pass through */
+        z-index: 10;
+        pointer-events: none;
     }
     :global(.overlay-wrapper a ){
-        pointer-events: auto; /* Enable clicks on links */
+        pointer-events: auto;
     }
 </style>
