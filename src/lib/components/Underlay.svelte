@@ -2,7 +2,6 @@
   <div class="header">
       <p class="title">Stefan Reifenberg</p>
       <div class="spacer"></div>
-      <p class="symbol">⎑</p>
   </div>
 
   <div class="sub-header">
@@ -10,8 +9,6 @@
       <span>Freelance Information Designer</span> <br />
       <b>—</b>
   </p>
-      <!-- <div class="spacer-small"></div>
-      <p class="drag-pointer">DRAG POINTER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ●</p> -->
   </div>
 
   <div class="spacer-auto"></div> <!-- Flexible Spacer -->
@@ -70,12 +67,6 @@
       line-height: 1.2;
       color: black;
       letter-spacing: -2px;
-  }
-
-  .symbol {
-      font-size: 2rem;
-      color: black;
-      text-align: right;
   }
 
   .sub-header {
