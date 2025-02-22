@@ -5,8 +5,8 @@ Everything you need to run this Svelte project locally.
 ### **1 Clone the Repository**
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone https://github.com/stefanreifenberg/frontend-meetup-intro
+cd frontend-meetup-intro
 ```
 
 ### **2 Install Dependencies**
@@ -42,4 +42,3 @@ npm run preview
 ---
 
 ## Happy Coding!
-
