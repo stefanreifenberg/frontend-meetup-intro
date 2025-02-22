@@ -4,7 +4,7 @@
     import { RigidBody, Collider, useRigidBody, AutoColliders } from '@threlte/rapier';
     import { readable } from 'svelte/store';
 
-    let matcapTexture = readable(new THREE.TextureLoader().load('/matcap2.png'));  
+    let matcapTexture = readable(new THREE.TextureLoader().load('/matcap.png'));  
 
     let {
         scale = 1
@@ -46,12 +46,12 @@
                 <T.SphereGeometry args={[1, 64, 64]} />
                 <!-- <T.MeshMatcapMaterial bind:matcap={$matcapTexture} /> -->
                 <T.MeshPhysicalMaterial 
-                color="#E2DFD2"
-                roughness={1}
-                metalness={0.3}
-                clearcoat={1.0} 
-                clearcoatRoughness={0.1}
-            />
+                  color="#E2DFD2"
+                  roughness={1}
+                  metalness={0.3}
+                  clearcoat={1.0} 
+                  clearcoatRoughness={0.1}
+              />
             </T.Mesh>
         </Collider>
     </RigidBody>

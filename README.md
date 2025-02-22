@@ -1,38 +1,45 @@
-# sv
+Everything you need to run this Svelte project locally.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Getting Started
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+### **1 Clone the Repository**
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone <repo-url>
+cd <repo-folder>
 ```
 
-## Developing
+### **2 Install Dependencies**
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm install  # or pnpm install or yarn install
+```
+
+### **3 Start the Development Server**
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Then, open the url in your browser.
 
-To create a production version of your app:
+---
+
+## Building for Production
+
+To create an optimized **production build**:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+To preview the built app:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+---
+
+## Happy Coding!
+

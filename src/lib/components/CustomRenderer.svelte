@@ -18,7 +18,7 @@
         composer.removeAllPasses()
         composer.addPass(new RenderPass(scene, cam))
 
-        const n8aopass = new N8AOPostPass(scene, cam, size.width, size.height)
+        const n8aopass = new N8AOPostPass(scene, cam, $size.width, $size.height)
         n8aopass.configuration.aoRadius = 20
         n8aopass.configuration.intensity = 2
         n8aopass.configuration.color.set('#a020f0')
