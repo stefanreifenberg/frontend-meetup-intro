@@ -21,7 +21,7 @@
 };
 
 const spheres = $state(
-    Array.from({ length: 50 }, () => ({
+    Array.from({ length: 25 }, () => ({
         scale: Math.max(0.5, randomGaussian(1, 0.2)) // Mean 1, std dev 0.2, min 0.5
     }))
 );
